@@ -1,44 +1,43 @@
-# Generated: 2026-04-05 21:03:40
-# Passes completed: direct, proxy
-# --- PROXY ---
-DOMAIN-SUFFIX,anthropic.com,PROXY
-DOMAIN-SUFFIX,boosty.to,PROXY
-DOMAIN-SUFFIX,chatgpt.com,PROXY
-DOMAIN-SUFFIX,claude.ai,PROXY
-DOMAIN-SUFFIX,discord.gg,PROXY
-DOMAIN-SUFFIX,facebook.com,PROXY
-DOMAIN-SUFFIX,facebook.net,PROXY
-DOMAIN-SUFFIX,fb.com,PROXY
-DOMAIN-SUFFIX,fbcdn.net,PROXY
-DOMAIN-SUFFIX,ggpht.com,PROXY
-DOMAIN-SUFFIX,googleusercontent.com,PROXY
-DOMAIN-SUFFIX,googlevideo.com,PROXY
-DOMAIN-SUFFIX,kinozal.tv,PROXY
-DOMAIN-SUFFIX,letteros.com,PROXY
-DOMAIN-SUFFIX,licdn.com,PROXY
-DOMAIN-SUFFIX,linkedin.com,PROXY
-DOMAIN-SUFFIX,medium.com,PROXY
-DOMAIN-SUFFIX,notion.so,PROXY
-DOMAIN-SUFFIX,oaiusercontent.com,PROXY
-DOMAIN-SUFFIX,openai.com,PROXY
-DOMAIN-SUFFIX,pinimg.com,PROXY
-DOMAIN-SUFFIX,pinterest.com,PROXY
-DOMAIN-SUFFIX,quora.com,PROXY
-DOMAIN-SUFFIX,recaptcha.net,PROXY
-DOMAIN-SUFFIX,redd.it,PROXY
-DOMAIN-SUFFIX,rutracker.net,PROXY
-DOMAIN-SUFFIX,rutracker.org,PROXY
-DOMAIN-SUFFIX,spotify.com,PROXY
-DOMAIN-SUFFIX,t.co,PROXY
-DOMAIN-SUFFIX,t.me,PROXY
-DOMAIN-SUFFIX,telegram.org,PROXY
-DOMAIN-SUFFIX,telesco.pe,PROXY
-DOMAIN-SUFFIX,tildacdn.com,PROXY
-DOMAIN-SUFFIX,twimg.com,PROXY
-DOMAIN-SUFFIX,twitter.com,PROXY
-DOMAIN-SUFFIX,usemessages.com,PROXY
-DOMAIN-SUFFIX,vdsina.com,PROXY
-DOMAIN-SUFFIX,x.com,PROXY
-DOMAIN-SUFFIX,youtu.be,PROXY
-DOMAIN-SUFFIX,youtube.com,PROXY
-DOMAIN-SUFFIX,ytimg.com,PROXY
+# Custom proxy domains (not covered by community list)
+# Source: https://github.com/syper-freedm/domain-list
+# ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,cursor.com
+# youtube
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,ytimg.com
+# social
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,licdn.com
+DOMAIN-SUFFIX,pinterest.com
+DOMAIN-SUFFIX,pinimg.com
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,t.co
+# messenger
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,telegram.org
+DOMAIN-SUFFIX,telesco.pe
+DOMAIN-SUFFIX,usemessages.com
+# media
+DOMAIN-SUFFIX,boosty.to
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,loom.com
+# project management
+DOMAIN-SUFFIX,clickup.com
+DOMAIN-SUFFIX,linear.app
+DOMAIN-SUFFIX,smartsheet.com
+DOMAIN-SUFFIX,wrike.com
+# automation
+DOMAIN-SUFFIX,make.com
+DOMAIN-SUFFIX,zapier.com
+# tools
+DOMAIN-SUFFIX,developer.nvidia.com
+DOMAIN-SUFFIX,letteros.com
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,tildacdn.com
+DOMAIN-SUFFIX,vdsina.com
