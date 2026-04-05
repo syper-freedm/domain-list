@@ -1,0 +1,52 @@
+# Generated: 2026-04-05 21:03:40
+# Passes completed: direct, proxy
+
+# --- DIRECT (TLDs) ---
+DOMAIN-SUFFIX,ru,DIRECT                                                                                    
+DOMAIN-SUFFIX,рф,DIRECT                                                                                    
+DOMAIN-SUFFIX,su,DIRECT
+DOMAIN-SUFFIX,microsoft.com, DIRECT
+DOMAIN-SUFFIX,apple.com, DIRECT
+
+# --- PROXY ---
+DOMAIN-SUFFIX,anthropic.com,PROXY
+DOMAIN-SUFFIX,boosty.to,PROXY
+DOMAIN-SUFFIX,chatgpt.com,PROXY
+DOMAIN-SUFFIX,claude.ai,PROXY
+DOMAIN-SUFFIX,discord.gg,PROXY
+DOMAIN-SUFFIX,facebook.com,PROXY
+DOMAIN-SUFFIX,facebook.net,PROXY
+DOMAIN-SUFFIX,fb.com,PROXY
+DOMAIN-SUFFIX,fbcdn.net,PROXY
+DOMAIN-SUFFIX,ggpht.com,PROXY
+DOMAIN-SUFFIX,googleusercontent.com,PROXY
+DOMAIN-SUFFIX,googlevideo.com,PROXY
+DOMAIN-SUFFIX,kinozal.tv,PROXY
+DOMAIN-SUFFIX,letteros.com,PROXY
+DOMAIN-SUFFIX,licdn.com,PROXY
+DOMAIN-SUFFIX,linkedin.com,PROXY
+DOMAIN-SUFFIX,medium.com,PROXY
+DOMAIN-SUFFIX,notion.so,PROXY
+DOMAIN-SUFFIX,oaiusercontent.com,PROXY
+DOMAIN-SUFFIX,openai.com,PROXY
+DOMAIN-SUFFIX,pinimg.com,PROXY
+DOMAIN-SUFFIX,pinterest.com,PROXY
+DOMAIN-SUFFIX,quora.com,PROXY
+DOMAIN-SUFFIX,recaptcha.net,PROXY
+DOMAIN-SUFFIX,redd.it,PROXY
+DOMAIN-SUFFIX,rutracker.net,PROXY
+DOMAIN-SUFFIX,rutracker.org,PROXY
+DOMAIN-SUFFIX,spotify.com,PROXY
+DOMAIN-SUFFIX,t.co,PROXY
+DOMAIN-SUFFIX,t.me,PROXY
+DOMAIN-SUFFIX,telegram.org,PROXY
+DOMAIN-SUFFIX,telesco.pe,PROXY
+DOMAIN-SUFFIX,tildacdn.com,PROXY
+DOMAIN-SUFFIX,twimg.com,PROXY
+DOMAIN-SUFFIX,twitter.com,PROXY
+DOMAIN-SUFFIX,usemessages.com,PROXY
+DOMAIN-SUFFIX,vdsina.com,PROXY
+DOMAIN-SUFFIX,x.com,PROXY
+DOMAIN-SUFFIX,youtu.be,PROXY
+DOMAIN-SUFFIX,youtube.com,PROXY
+DOMAIN-SUFFIX,ytimg.com,PROXY
