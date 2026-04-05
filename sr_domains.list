@@ -1,13 +1,5 @@
 # Generated: 2026-04-05 21:03:40
 # Passes completed: direct, proxy
-
-# --- DIRECT (TLDs) ---
-DOMAIN-SUFFIX,ru,DIRECT                                                                                    
-DOMAIN-SUFFIX,рф,DIRECT                                                                                    
-DOMAIN-SUFFIX,su,DIRECT
-DOMAIN-SUFFIX,microsoft.com, DIRECT
-DOMAIN-SUFFIX,apple.com, DIRECT
-
 # --- PROXY ---
 DOMAIN-SUFFIX,anthropic.com,PROXY
 DOMAIN-SUFFIX,boosty.to,PROXY
