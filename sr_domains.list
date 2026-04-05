@@ -8,8 +8,11 @@ DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,notebooklm.google.com
 DOMAIN-SUFFIX,cursor.com
 # youtube
+DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,ytimg.l.google.com
+DOMAIN-SUFFIX,yt-video-upload.l.google.com
 # social
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,linkedin.com
