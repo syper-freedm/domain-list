@@ -4,8 +4,9 @@
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,githubassets.com
-# ai
+DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,ai.google.dev
+# ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,aistudio.google.com
