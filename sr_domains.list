@@ -1,6 +1,7 @@
 # Custom proxy domains (not covered by community list)
 # Source: https://github.com/syper-freedm/domain-list
 # ai
+DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,aistudio.google.com
