@@ -2,12 +2,15 @@
 # Source: https://github.com/syper-freedm/domain-list
 #dev
 DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,withgoogle.com
 DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,codeium.com
 # ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,oaiusercontent.com
