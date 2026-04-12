@@ -1,7 +1,7 @@
 # Custom proxy domains (not covered by community list)
 # Source: https://github.com/syper-freedm/domain-list
 #other
-#DOMAIN-SUFFIX,sypermini.com
+DOMAIN-SUFFIX,sypermini.com
 #dev
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,github.io
