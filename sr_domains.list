@@ -65,3 +65,5 @@ DOMAIN-SUFFIX,parallels.com
 DOMAIN-SUFFIX,btloader.com
 DOMAIN-SUFFIX,grizzlysms.com
 DOMAIN-SUFFIX,tazapay.com
+# cdn
+DOMAIN-SUFFIX,doubleclick.net
