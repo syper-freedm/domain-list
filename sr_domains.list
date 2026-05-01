@@ -13,6 +13,7 @@ DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,withgoogle.com
 DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,githubcopilot.com
 # ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,oaiusercontent.com
