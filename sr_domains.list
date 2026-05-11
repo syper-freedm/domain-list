@@ -14,6 +14,7 @@ DOMAIN-SUFFIX,withgoogle.com
 DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,semgrep.dev
 # ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,oaiusercontent.com
