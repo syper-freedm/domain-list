@@ -93,3 +93,4 @@ DOMAIN-SUFFIX,brightspotcdn.com
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,browser-intake-datadoghq.com
 DOMAIN-SUFFIX,cloudflareaccess.com
+DOMAIN-SUFFIX,cloudfront.net
