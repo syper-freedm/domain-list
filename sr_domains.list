@@ -28,7 +28,6 @@ DOMAIN-SUFFIX,nanobanana.io
 DOMAIN-SUFFIX,windsurf.com
 DOMAIN-SUFFIX,minimax.chat
 DOMAIN-SUFFIX,kerlig.com
-DOMAIN-SUFFIX,perplexity.ai
 # youtube
 DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,ggpht.com
@@ -83,14 +82,4 @@ DOMAIN-SUFFIX,relevant-digital.com
 DOMAIN-SUFFIX,foreca.net
 DOMAIN-SUFFIX,clerk.com
 DOMAIN-SUFFIX,buildwithfern.com
-DOMAIN-SUFFIX,imagedelivery.net
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,eppo.cloud
-DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,cloudinary.com
-DOMAIN-SUFFIX,unsplash.com
-DOMAIN-SUFFIX,brightspotcdn.com
-DOMAIN-SUFFIX,amazonaws.com
-DOMAIN-SUFFIX,browser-intake-datadoghq.com
-DOMAIN-SUFFIX,cloudflareaccess.com
-DOMAIN-SUFFIX,cloudfront.net
