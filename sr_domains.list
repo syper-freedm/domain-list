@@ -16,6 +16,7 @@ DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,semgrep.dev
 DOMAIN-SUFFIX,snyk.io
+DOMAIN-SUFFIX,electronjs.org
 # ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,oaiusercontent.com
