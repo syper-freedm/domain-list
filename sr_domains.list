@@ -96,6 +96,37 @@ DOMAIN-SUFFIX,clerk.com
 DOMAIN-SUFFIX,buildwithfern.com
 DOMAIN-SUFFIX,cloudinary.com
 DOMAIN-SUFFIX,mintcdn.com
+# cdn/hosting throttled or geo-blocked (Cloudflare/Vercel/Fastly/CloudFront, 2025-2026)
+DOMAIN-SUFFIX,vercel.app
+DOMAIN-SUFFIX,vercel.com
+DOMAIN-SUFFIX,vercel-dns.com
+DOMAIN-SUFFIX,netlify.app
+DOMAIN-SUFFIX,netlify.com
+DOMAIN-SUFFIX,pages.dev
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,r2.dev
+DOMAIN-SUFFIX,web.app
+DOMAIN-SUFFIX,firebaseapp.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,fastly.net
+DOMAIN-SUFFIX,fastlylb.net
+DOMAIN-SUFFIX,b-cdn.net
+# docs platforms
+DOMAIN-SUFFIX,mintlify.app
+DOMAIN-SUFFIX,mintlify.dev
+DOMAIN-SUFFIX,gitbook.io
+DOMAIN-SUFFIX,gitbook.com
+DOMAIN-SUFFIX,readthedocs.io
+DOMAIN-SUFFIX,readthedocs-hosted.com
+# public asset CDNs (Cloudflare/Fastly-backed)
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,unpkg.com
+DOMAIN-SUFFIX,cdnjs.cloudflare.com
+DOMAIN-SUFFIX,statically.io
+DOMAIN-SUFFIX,githack.com
+# cloudflare platform domains
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare-dns.com
 #apple
 DOMAIN-SUFFIX,mzstatic.com,PROXY
 DOMAIN-SUFFIX,itunes.apple.com,PROXY
