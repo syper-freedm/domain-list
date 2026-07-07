@@ -39,6 +39,7 @@ DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,cursor.sh
 # youtube
 DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,ggpht.com
