@@ -106,6 +106,7 @@ DOMAIN-SUFFIX,clerk.com
 DOMAIN-SUFFIX,buildwithfern.com
 DOMAIN-SUFFIX,cloudinary.com
 DOMAIN-SUFFIX,mintcdn.com
+DOMAIN-SUFFIX,sentry.io
 # hosting platforms 
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,vercel.com
