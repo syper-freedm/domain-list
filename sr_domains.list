@@ -20,7 +20,6 @@ DOMAIN-SUFFIX,visualstudio.com
 DOMAIN-SUFFIX,context7.com
 
 # ai
-DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,notebooklm.google.com
@@ -198,3 +197,15 @@ IP-ASN,8075
 
 # Alcatel-Lucent / Nokia Networks America (исп. ChatGPT)
 IP-ASN,10455
+
+# Claude / Anthropic — официальный список Anthropic, подробности в CLAUDE.md
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claude.app
+DOMAIN-SUFFIX,claudeusercontent.com
+DOMAIN-SUFFIX,claudemcpcontent.com
+
+# Anthropic: часть соединений идёт по голому IP, без имени хоста
+IP-CIDR,160.79.104.0/21
+IP-CIDR,2607:6bc0::/48
