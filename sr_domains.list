@@ -159,5 +159,3 @@ DOMAIN-SUFFIX,mzstatic.com,PROXY
 DOMAIN-SUFFIX,itunes.apple.com,PROXY
 DOMAIN-SUFFIX,apps.apple.com,PROXY
 DOMAIN-SUFFIX,apple.map.fastly.net,PROXY
-# Сеть Microsoft Azure
-ASN,8075,PROXY
