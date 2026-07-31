@@ -177,5 +177,9 @@ DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,apple.map.fastly.net
-# Сеть Microsoft Azure
+
+# Сеть Microsoft Azure (исп. CharGPT)
 IP-ASN,8075
+
+# Сеть Alcatel-Lucent (Nokia Networks America) (исп. CharGPT)
+IP-ASN,10455
