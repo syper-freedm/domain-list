@@ -1,7 +1,9 @@
 # Custom proxy domains (not covered by community list)
 # Source: https://github.com/syper-freedm/domain-list
+
 #other
 DOMAIN-SUFFIX,sypermini.com
+
 #dev
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,github.io
@@ -19,6 +21,7 @@ DOMAIN-SUFFIX,snyk.io
 DOMAIN-SUFFIX,electronjs.org
 DOMAIN-SUFFIX,visualstudio.com
 DOMAIN-SUFFIX,context7.com
+
 # ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,oaiusercontent.com
@@ -41,12 +44,14 @@ DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,cursor.sh
+
 # youtube
 DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,ytimg.l.google.com
 DOMAIN-SUFFIX,yt-video-upload.l.google.com
+
 # social
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,linkedin.com
@@ -56,23 +61,28 @@ DOMAIN-SUFFIX,pinimg.com
 DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,t.co
 DOMAIN-SUFFIX,themoscowtimes.com
+
 # messenger
 DOMAIN-SUFFIX,usemessages.com
+
 # media
 DOMAIN-SUFFIX,boosty.to
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,loom.com
 DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,cloudinary.com
+
 # project management
 DOMAIN-SUFFIX,clickup.com
 DOMAIN-SUFFIX,linear.app
 DOMAIN-SUFFIX,smartsheet.com
 DOMAIN-SUFFIX,wrike.com
 DOMAIN-SUFFIX,todoist.net
+
 # automation
 DOMAIN-SUFFIX,make.com
 DOMAIN-SUFFIX,zapier.com
+
 # tools
 DOMAIN-SUFFIX,developer.nvidia.com
 DOMAIN-SUFFIX,letteros.com
@@ -90,6 +100,7 @@ DOMAIN-SUFFIX,redshieldvpn.com
 DOMAIN-SUFFIX,cryptomator.org
 DOMAIN-SUFFIX,axcrypt.net
 DOMAIN-SUFFIX,lookip.net
+
 # services
 DOMAIN-SUFFIX,grizzlysms.com
 DOMAIN-SUFFIX,tazapay.com
@@ -97,6 +108,7 @@ DOMAIN-SUFFIX,foreca.com
 DOMAIN-SUFFIX,platipomiru.com
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,weather.com
+
 # cdn
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,btloader.com
@@ -108,6 +120,7 @@ DOMAIN-SUFFIX,buildwithfern.com
 DOMAIN-SUFFIX,cloudinary.com
 DOMAIN-SUFFIX,mintcdn.com
 DOMAIN-SUFFIX,sentry.io
+
 # hosting platforms 
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,vercel.com
@@ -123,6 +136,7 @@ DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,fastly.net
 DOMAIN-SUFFIX,fastlylb.net
 DOMAIN-SUFFIX,b-cdn.net
+
 # docs platforms
 DOMAIN-SUFFIX,mintlify.app
 DOMAIN-SUFFIX,mintlify.dev
@@ -130,15 +144,18 @@ DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,gitbook.com
 DOMAIN-SUFFIX,readthedocs.io
 DOMAIN-SUFFIX,readthedocs-hosted.com
+
 # public asset CDNs (Cloudflare/Fastly-backed)
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,unpkg.com
 DOMAIN-SUFFIX,cdnjs.cloudflare.com
 DOMAIN-SUFFIX,statically.io
 DOMAIN-SUFFIX,githack.com
+
 # cloudflare platform domains
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,cloudflare-dns.com
+
 # dev/saas ушли из РФ / санкции
 DOMAIN-SUFFIX,figma.com
 DOMAIN-SUFFIX,miro.com
@@ -154,8 +171,11 @@ DOMAIN-SUFFIX,postman.com
 DOMAIN-SUFFIX,grammarly.com
 DOMAIN-SUFFIX,pypi.org
 DOMAIN-SUFFIX,pythonhosted.org
+
 # apple
-DOMAIN-SUFFIX,mzstatic.com,PROXY
-DOMAIN-SUFFIX,itunes.apple.com,PROXY
-DOMAIN-SUFFIX,apps.apple.com,PROXY
-DOMAIN-SUFFIX,apple.map.fastly.net,PROXY
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,apple.map.fastly.net
+# Сеть Microsoft Azure
+IP-ASN,8075
