@@ -172,69 +172,29 @@ DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,apple.map.fastly.net
 
-# ChatGPT / OpenAI — официальный список доменов для разрешения в сети
-# Источник: https://help.openai.com/en/articles/9247338-network-recommendations-for-chatgpt-errors-on-web-and-apps
-# (сверено 2026-08-01)
-
-# Основные домены OpenAI.
-# openai.com покрывает *.openai.com, *.auth.openai.com, auth0.openai.com,
-# chat.openai.com и его поддомены (android/ios/desktop/tcr9i), setup.auth.openai.com.
-# chatgpt.com покрывает *.chatgpt.com и WebSocket wss://ws.chatgpt.com.
+# ChatGPT / OpenAI — официальный список OpenAI, подробности в CLAUDE.md
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,oaistatsig.com
 DOMAIN-SUFFIX,openaimerge.com
-
-# Вход и авторизация (провайдер WorkOS)
 DOMAIN-SUFFIX,workos.com
 DOMAIN-SUFFIX,workoscdn.com
 DOMAIN,workos.imgix.net
-
-# Поддержка внутри интерфейса (Intercom) и ссылки из писем (SendGrid)
 DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,ct.sendgrid.net
-
-# Сбор ошибок и метрик клиента (Datadog RUM)
 DOMAIN,rum.browser-intake-datadoghq.com
-
-# Требуется приложениям OpenAI (значится в официальном списке)
 DOMAIN,humb.apple.com
 
-# Подстраховка по адресам. В логе Shadowrocket видно, что часть соединений
-# приложение открывает сразу по IP, без имени хоста — правила по доменам к ним
-# не применяются, и трафик уходил напрямую (FINAL,DIRECT) с домашнего адреса.
-# Это ломало голосовой чат: сессия начиналась с одного адреса, а WebSocket
-# приходил с другого, и OpenAI отвечал 403.
-# Все замеченные адреса принадлежат Cloudflare (проверено 2026-08-01 через
-# RDAP и Team Cymru): chatgpt.com резолвится в 8.47.69.0/24 и 8.6.112.0/24,
-# api.openai.com — в 162.159.140.245.
-#
-# Правило по ASN, а не по списку сетей: адреса Cloudflare меняются, номер сети — нет.
-# Массового захвата трафика не будет: набор подключён с флагом no-resolve, поэтому
-# правила по адресам применяются только к соединениям без имени хоста — то есть
-# ровно к тем, где доменные правила и не срабатывают.
-IP-ASN,13335,PROXY,no-resolve
-# Подстраховка: 8.47.69.0/24 и 8.6.112.0/24 зарегистрированы в реестре на Lumen
-# (старый блок 8.0.0.0/8), хотя анонсирует их Cloudflare. В официальном списке
-# cloudflare.com/ips-v4 их нет — база ASN в Shadowrocket может их тоже не знать.
-IP-CIDR,8.47.69.0/24,PROXY,no-resolve
-IP-CIDR,8.6.112.0/24,PROXY,no-resolve
+# Cloudflare: ChatGPT часть соединений открывает по голому IP, без имени хоста
+IP-ASN,13335
+IP-CIDR,8.47.69.0/24
+IP-CIDR,8.6.112.0/24
 
-# Уже покрыто правилами выше в этом файле, отдельные строки не нужны:
-#   challenges.cloudflare.com  → DOMAIN-SUFFIX,cloudflare.com (секция cloudflare platform domains)
-#   js.stripe.com              → DOMAIN-SUFFIX,stripe.com (секция services)
-#   o*.ingest.sentry.io        → DOMAIN-SUFFIX,sentry.io (секция cdn)
-
-# Голосовой режим ChatGPT работает по UDP:3478 к диапазонам из
-# https://openai.com/chatgpt-voice.json — на 2026-08-01 это 23 адреса,
-# все принадлежат Microsoft Azure и уже попадают под IP-ASN,8075 ниже.
-# Отдельные IP не добавляем: список меняется, а ASN — нет.
-
-# Сеть Microsoft Azure (исп. ChatGPT)
+# Microsoft Azure (голосовой чат ChatGPT, UDP:3478)
 IP-ASN,8075
 
-# Сеть Alcatel-Lucent (Nokia Networks America) (исп. ChatGPT)
+# Alcatel-Lucent / Nokia Networks America (исп. ChatGPT)
 IP-ASN,10455
