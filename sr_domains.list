@@ -38,6 +38,7 @@ DOMAIN-SUFFIX,mistral.ai
 DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,openrouter.ai
 
 # youtube
 DOMAIN-KEYWORD,youtube
