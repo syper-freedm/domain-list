@@ -210,3 +210,31 @@ DOMAIN-SUFFIX,claudemcpcontent.com
 # Anthropic: часть соединений идёт по голому IP, без имени хоста
 IP-CIDR,160.79.104.0/21
 IP-CIDR,2607:6bc0::/48
+
+# === Kimi / Moonshot AI ===
+DOMAIN-SUFFIX,kimi.ai
+DOMAIN-SUFFIX,kimi.com
+DOMAIN-SUFFIX,moonshot.cn
+DOMAIN-SUFFIX,moonshot.ai
+
+# === Китайские CDN ===
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,aliyuncs.com
+DOMAIN-SUFFIX,qiniudn.com
+DOMAIN-SUFFIX,qbox.me
+DOMAIN-SUFFIX,qnssl.com
+DOMAIN-SUFFIX,qiniu.com
+DOMAIN-SUFFIX,qcloud.com
+DOMAIN-SUFFIX,myqcloud.com
+DOMAIN-SUFFIX,volces.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,byted-static.com
+DOMAIN-SUFFIX,bdstatic.com
+DOMAIN-SUFFIX,bcebos.com
+
+# === Аналитика / аутентификация ===
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,mixpanel.com
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,clerk.dev
