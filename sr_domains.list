@@ -1,178 +1,24 @@
 # Custom proxy domains (not covered by community list)
 # Source: https://github.com/syper-freedm/domain-list
 
-#other
+# === своё / служебное ===
 DOMAIN-SUFFIX,sypermini.com
 
-#dev
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubusercontent.com
-DOMAIN-SUFFIX,githubassets.com
-DOMAIN-SUFFIX,githubcopilot.com
-DOMAIN-SUFFIX,withgoogle.com
-DOMAIN-SUFFIX,ai.google.dev
-DOMAIN-SUFFIX,codeium.com
-DOMAIN-SUFFIX,semgrep.dev
-DOMAIN-SUFFIX,snyk.io
-DOMAIN-SUFFIX,electronjs.org
-DOMAIN-SUFFIX,visualstudio.com
-DOMAIN-SUFFIX,context7.com
+# === Grok / xAI ===
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,grokipedia.com
+DOMAIN-SUFFIX,featureassets.org
+DOMAIN-SUFFIX,chronosphere.io
 
-# ai
-DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,notebooklm.google.com
+# === Cursor ===
 DOMAIN-SUFFIX,cursor.com
-DOMAIN-SUFFIX,nousresearch.com
-DOMAIN-SUFFIX,google
-DOMAIN-SUFFIX,nanobanana.io
-DOMAIN-SUFFIX,windsurf.com
-DOMAIN-SUFFIX,minimax.chat
-DOMAIN-SUFFIX,kerlig.com
-DOMAIN-SUFFIX,microsoft.ai
-DOMAIN-SUFFIX,groq.com
-DOMAIN-SUFFIX,docs.z.ai
-DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,mistral.ai
-DOMAIN-SUFFIX,huggingface.co
-DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,cursor.sh
-DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursorapi.com
+DOMAIN-SUFFIX,cursorvm.com
 
-# youtube
-DOMAIN-KEYWORD,youtube
-DOMAIN-SUFFIX,ggpht.com
-DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,ytimg.l.google.com
-DOMAIN-SUFFIX,yt-video-upload.l.google.com
-
-# social
-DOMAIN-SUFFIX,fb.com
-DOMAIN-SUFFIX,linkedin.com
-DOMAIN-SUFFIX,licdn.com
-DOMAIN-SUFFIX,pinterest.com
-DOMAIN-SUFFIX,pinimg.com
-DOMAIN-SUFFIX,redd.it
-DOMAIN-SUFFIX,t.co
-DOMAIN-SUFFIX,themoscowtimes.com
-
-# messenger
-DOMAIN-SUFFIX,usemessages.com
-
-# media
-DOMAIN-SUFFIX,boosty.to
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,loom.com
-DOMAIN-SUFFIX,pscp.tv
-
-# project management
-DOMAIN-SUFFIX,clickup.com
-DOMAIN-SUFFIX,linear.app
-DOMAIN-SUFFIX,smartsheet.com
-DOMAIN-SUFFIX,wrike.com
-DOMAIN-SUFFIX,todoist.net
-
-# automation
-DOMAIN-SUFFIX,make.com
-DOMAIN-SUFFIX,zapier.com
-
-# tools
-DOMAIN-SUFFIX,developer.nvidia.com
-DOMAIN-SUFFIX,letteros.com
-DOMAIN-SUFFIX,recaptcha.net
-DOMAIN-SUFFIX,tildacdn.com
-DOMAIN-SUFFIX,vdsina.com
-DOMAIN-SUFFIX,parallels.com
-DOMAIN-SUFFIX,waveterm.dev
-DOMAIN-SUFFIX,paperclip.ing
-DOMAIN-SUFFIX,bitdefender.com
-DOMAIN-SUFFIX,rewritebar.com
-DOMAIN-SUFFIX,anythingllm.com
-DOMAIN-SUFFIX,myrsv.live
-DOMAIN-SUFFIX,redshieldvpn.com
-DOMAIN-SUFFIX,cryptomator.org
-DOMAIN-SUFFIX,axcrypt.net
-DOMAIN-SUFFIX,lookip.net
-
-# services
-DOMAIN-SUFFIX,grizzlysms.com
-DOMAIN-SUFFIX,tazapay.com
-DOMAIN-SUFFIX,foreca.com
-DOMAIN-SUFFIX,platipomiru.com
-DOMAIN-SUFFIX,stripe.com
-DOMAIN-SUFFIX,weather.com
-
-# cdn
-DOMAIN-SUFFIX,doubleclick.net
-DOMAIN-SUFFIX,btloader.com
-DOMAIN-SUFFIX,gravito.fi
-DOMAIN-SUFFIX,relevant-digital.com
-DOMAIN-SUFFIX,foreca.net
-DOMAIN-SUFFIX,clerk.com
-DOMAIN-SUFFIX,buildwithfern.com
-DOMAIN-SUFFIX,cloudinary.com
-DOMAIN-SUFFIX,mintcdn.com
-DOMAIN-SUFFIX,sentry.io
-
-# hosting platforms 
-DOMAIN-SUFFIX,vercel.app
-DOMAIN-SUFFIX,vercel.com
-DOMAIN-SUFFIX,vercel-dns.com
-DOMAIN-SUFFIX,netlify.app
-DOMAIN-SUFFIX,netlify.com
-DOMAIN-SUFFIX,pages.dev
-DOMAIN-SUFFIX,workers.dev
-DOMAIN-SUFFIX,r2.dev
-DOMAIN-SUFFIX,web.app
-DOMAIN-SUFFIX,firebaseapp.com
-DOMAIN-SUFFIX,cloudfront.net
-DOMAIN-SUFFIX,fastly.net
-DOMAIN-SUFFIX,fastlylb.net
-DOMAIN-SUFFIX,b-cdn.net
-
-# docs platforms
-DOMAIN-SUFFIX,mintlify.app
-DOMAIN-SUFFIX,mintlify.dev
-DOMAIN-SUFFIX,gitbook.io
-DOMAIN-SUFFIX,gitbook.com
-DOMAIN-SUFFIX,readthedocs.io
-DOMAIN-SUFFIX,readthedocs-hosted.com
-
-# public asset CDNs (Cloudflare/Fastly-backed)
-DOMAIN-SUFFIX,jsdelivr.net
-DOMAIN-SUFFIX,unpkg.com
-DOMAIN-SUFFIX,cdnjs.cloudflare.com
-DOMAIN-SUFFIX,statically.io
-DOMAIN-SUFFIX,githack.com
-
-# cloudflare platform domains
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,cloudflare-dns.com
-
-# dev/saas ушли из РФ / санкции
-DOMAIN-SUFFIX,figma.com
-DOMAIN-SUFFIX,miro.com
-DOMAIN-SUFFIX,docker.com
-DOMAIN-SUFFIX,docker.io
-DOMAIN-SUFFIX,gitlab.com
-DOMAIN-SUFFIX,atlassian.com
-DOMAIN-SUFFIX,atlassian.net
-DOMAIN-SUFFIX,bitbucket.org
-DOMAIN-SUFFIX,trello.com
-DOMAIN-SUFFIX,slack.com
-DOMAIN-SUFFIX,postman.com
-DOMAIN-SUFFIX,grammarly.com
-DOMAIN-SUFFIX,pypi.org
-DOMAIN-SUFFIX,pythonhosted.org
-
-# apple
-DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,apps.apple.com
-DOMAIN-SUFFIX,apple.map.fastly.net
-
-# ChatGPT / OpenAI — официальный список OpenAI, подробности в CLAUDE.md
+# === ChatGPT / OpenAI ===
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
@@ -187,37 +33,216 @@ DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,ct.sendgrid.net
 DOMAIN,rum.browser-intake-datadoghq.com
 DOMAIN,humb.apple.com
-
 # Cloudflare: ChatGPT часть соединений открывает по голому IP, без имени хоста
 IP-ASN,13335
 IP-CIDR,8.47.69.0/24
 IP-CIDR,8.6.112.0/24
-
 # Microsoft Azure (голосовой чат ChatGPT, UDP:3478)
 IP-ASN,8075
-
 # Alcatel-Lucent / Nokia Networks America (исп. ChatGPT)
 IP-ASN,10455
 
-# Claude / Anthropic — официальный список Anthropic, подробности в CLAUDE.md
+# === Claude / Anthropic ===
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claude.app
 DOMAIN-SUFFIX,claudeusercontent.com
 DOMAIN-SUFFIX,claudemcpcontent.com
-
 # Anthropic: часть соединений идёт по голому IP, без имени хоста
 IP-CIDR,160.79.104.0/21
 IP-CIDR,2607:6bc0::/48
 
-# === Kimi / Moonshot AI ===
+# === Google AI ===
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,withgoogle.com
+
+# === прочие AI / модели / роутеры ===
+DOMAIN-SUFFIX,openrouter.ai
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,nousresearch.com
+DOMAIN-SUFFIX,minimax.chat
+DOMAIN-SUFFIX,microsoft.ai
+DOMAIN-SUFFIX,docs.z.ai
 DOMAIN-SUFFIX,kimi.ai
 DOMAIN-SUFFIX,kimi.com
 DOMAIN-SUFFIX,moonshot.cn
 DOMAIN-SUFFIX,moonshot.ai
+DOMAIN-SUFFIX,nanobanana.io
+DOMAIN-SUFFIX,kerlig.com
+DOMAIN-SUFFIX,anythingllm.com
+DOMAIN-SUFFIX,rewritebar.com
+DOMAIN-SUFFIX,context7.com
 
-# === Китайские CDN ===
+# === AI-агенты / IDE ===
+DOMAIN-SUFFIX,githubcopilot.com
+DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,codeium.com
+DOMAIN-SUFFIX,visualstudio.com
+DOMAIN-SUFFIX,electronjs.org
+
+# === Git / DevOps / пакеты ===
+DOMAIN-SUFFIX,github.com
+DOMAIN-SUFFIX,github.io
+DOMAIN-SUFFIX,githubusercontent.com
+DOMAIN-SUFFIX,githubassets.com
+DOMAIN-SUFFIX,gitlab.com
+DOMAIN-SUFFIX,bitbucket.org
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,pypi.org
+DOMAIN-SUFFIX,pythonhosted.org
+DOMAIN-SUFFIX,postman.com
+DOMAIN-SUFFIX,semgrep.dev
+DOMAIN-SUFFIX,snyk.io
+DOMAIN-SUFFIX,developer.nvidia.com
+
+# === X / Twitter ===
+DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,twitter.com
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,pscp.tv
+
+# === соцсети / новости ===
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,linkedin.com
+DOMAIN-SUFFIX,licdn.com
+DOMAIN-SUFFIX,pinterest.com
+DOMAIN-SUFFIX,pinimg.com
+DOMAIN-SUFFIX,redd.it
+DOMAIN-SUFFIX,themoscowtimes.com
+DOMAIN-SUFFIX,boosty.to
+
+# === мессенджеры / коммуникация ===
+DOMAIN-SUFFIX,usemessages.com
+DOMAIN-SUFFIX,slack.com
+
+# === YouTube ===
+DOMAIN-KEYWORD,youtube
+DOMAIN-SUFFIX,ggpht.com
+DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,ytimg.l.google.com
+DOMAIN-SUFFIX,yt-video-upload.l.google.com
+
+# === медиа ===
+DOMAIN-SUFFIX,spotify.com
+DOMAIN-SUFFIX,loom.com
+
+# === Apple ===
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,mzstatic.com
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,apple.map.fastly.net
+
+# === Google (логин, API, статика, реклама) ===
+DOMAIN-SUFFIX,google
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,doubleclick.net
+
+# === таск-трекеры / документы ===
+DOMAIN-SUFFIX,clickup.com
+DOMAIN-SUFFIX,linear.app
+DOMAIN-SUFFIX,smartsheet.com
+DOMAIN-SUFFIX,wrike.com
+DOMAIN-SUFFIX,todoist.net
+DOMAIN-SUFFIX,atlassian.com
+DOMAIN-SUFFIX,atlassian.net
+DOMAIN-SUFFIX,trello.com
+DOMAIN-SUFFIX,figma.com
+DOMAIN-SUFFIX,miro.com
+DOMAIN-SUFFIX,grammarly.com
+
+# === автоматизация ===
+DOMAIN-SUFFIX,make.com
+DOMAIN-SUFFIX,zapier.com
+
+# === платежи ===
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,tazapay.com
+
+# === погода ===
+DOMAIN-SUFFIX,weather.com
+DOMAIN-SUFFIX,foreca.com
+DOMAIN-SUFFIX,foreca.net
+
+# === безопасность / VPN / шифрование ===
+DOMAIN-SUFFIX,bitdefender.com
+DOMAIN-SUFFIX,redshieldvpn.com
+DOMAIN-SUFFIX,cryptomator.org
+DOMAIN-SUFFIX,axcrypt.net
+DOMAIN-SUFFIX,lookip.net
+
+# === утилиты / сервисы ===
+DOMAIN-SUFFIX,letteros.com
+DOMAIN-SUFFIX,tildacdn.com
+DOMAIN-SUFFIX,vdsina.com
+DOMAIN-SUFFIX,parallels.com
+DOMAIN-SUFFIX,waveterm.dev
+DOMAIN-SUFFIX,paperclip.ing
+DOMAIN-SUFFIX,myrsv.live
+DOMAIN-SUFFIX,grizzlysms.com
+DOMAIN-SUFFIX,platipomiru.com
+
+# === аналитика / auth ===
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,mixpanel.com
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,clerk.com
+DOMAIN-SUFFIX,clerk.dev
+DOMAIN-SUFFIX,sentry.io
+
+# === CDN / рекламные пиксели ===
+DOMAIN-SUFFIX,btloader.com
+DOMAIN-SUFFIX,gravito.fi
+DOMAIN-SUFFIX,relevant-digital.com
+DOMAIN-SUFFIX,cloudinary.com
+DOMAIN-SUFFIX,mintcdn.com
+DOMAIN-SUFFIX,jsdelivr.net
+DOMAIN-SUFFIX,unpkg.com
+DOMAIN-SUFFIX,cdnjs.cloudflare.com
+DOMAIN-SUFFIX,statically.io
+DOMAIN-SUFFIX,githack.com
+DOMAIN-SUFFIX,cloudfront.net
+DOMAIN-SUFFIX,fastly.net
+DOMAIN-SUFFIX,fastlylb.net
+DOMAIN-SUFFIX,b-cdn.net
+
+# === хостинг / edge-платформы ===
+DOMAIN-SUFFIX,vercel.app
+DOMAIN-SUFFIX,vercel.com
+DOMAIN-SUFFIX,vercel-dns.com
+DOMAIN-SUFFIX,netlify.app
+DOMAIN-SUFFIX,netlify.com
+DOMAIN-SUFFIX,pages.dev
+DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,r2.dev
+DOMAIN-SUFFIX,web.app
+DOMAIN-SUFFIX,firebaseapp.com
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,buildwithfern.com
+
+# === документация ===
+DOMAIN-SUFFIX,mintlify.app
+DOMAIN-SUFFIX,mintlify.dev
+DOMAIN-SUFFIX,gitbook.io
+DOMAIN-SUFFIX,gitbook.com
+DOMAIN-SUFFIX,readthedocs.io
+DOMAIN-SUFFIX,readthedocs-hosted.com
+
+# === китайские CDN / облака ===
 DOMAIN-SUFFIX,alicdn.com
 DOMAIN-SUFFIX,aliyun.com
 DOMAIN-SUFFIX,aliyuncs.com
@@ -232,9 +257,3 @@ DOMAIN-SUFFIX,byteimg.com
 DOMAIN-SUFFIX,byted-static.com
 DOMAIN-SUFFIX,bdstatic.com
 DOMAIN-SUFFIX,bcebos.com
-
-# === Аналитика / аутентификация ===
-DOMAIN-SUFFIX,amplitude.com
-DOMAIN-SUFFIX,mixpanel.com
-DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,clerk.dev
