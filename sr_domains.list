@@ -163,6 +163,7 @@ DOMAIN-SUFFIX,trello.com
 DOMAIN-SUFFIX,figma.com
 DOMAIN-SUFFIX,miro.com
 DOMAIN-SUFFIX,grammarly.com
+DOMAIN-SUFFIX,mindmap.so
 
 # === автоматизация ===
 DOMAIN-SUFFIX,make.com
