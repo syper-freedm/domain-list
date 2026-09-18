@@ -4,6 +4,9 @@
 # === своё / служебное ===
 DOMAIN-SUFFIX,sypermini.com
 
+# === Copilot / Microsoft ===
+DOMAIN-SUFFIX, copilot.microsoft.com
+
 # === Grok / xAI ===
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.ai
