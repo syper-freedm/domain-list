@@ -245,6 +245,7 @@ DOMAIN-SUFFIX,gitbook.io
 DOMAIN-SUFFIX,gitbook.com
 DOMAIN-SUFFIX,readthedocs.io
 DOMAIN-SUFFIX,readthedocs-hosted.com
+DOMAIN-SUFFIX,context.dev
 
 # === китайские CDN / облака ===
 DOMAIN-SUFFIX,alicdn.com
