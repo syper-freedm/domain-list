@@ -146,6 +146,10 @@ DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,itunes.apple.com
 DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,apple.map.fastly.net
+# iCloud Drive хранит содержимое файлов в S3 Ireland (eu-irl-0000N.s3.dualstack.eu-west-1...).
+# Напрямую из РФ — троттлинг ~16 КБ: мелочь проходит, файлы висят на 0% (2026-10-19)
+DOMAIN-SUFFIX,eu-west-1.amazonaws.com
+DOMAIN-SUFFIX,icloud-content.com
 
 # === Google (логин, API, статика, реклама) ===
 DOMAIN-SUFFIX,google
