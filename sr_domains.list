@@ -1,5 +1,5 @@
 # Custom proxy domains (not covered by community list)
-# Source: https://github.com/syper-freedm/domain-list
+# Source: https://raw.githubusercontent.com/syper-freedm/domain-list/refs/heads/main/sr_domains.list
 
 # === своё / служебное ===
 DOMAIN-SUFFIX,sypermini.com
