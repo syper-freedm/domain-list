@@ -12,7 +12,6 @@ DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,grokipedia.com
 DOMAIN-SUFFIX,featureassets.org
-DOMAIN-SUFFIX,chronosphere.io
 
 # === Cursor ===
 DOMAIN-SUFFIX,cursor.com
@@ -35,7 +34,6 @@ DOMAIN-SUFFIX,intercom.io
 DOMAIN-SUFFIX,intercomcdn.com
 DOMAIN-SUFFIX,ct.sendgrid.net
 DOMAIN,rum.browser-intake-datadoghq.com
-DOMAIN,humb.apple.com
 # Cloudflare: ChatGPT часть соединений открывает по голому IP, без имени хоста
 IP-ASN,13335
 IP-CIDR,8.47.69.0/24
@@ -61,23 +59,14 @@ DOMAIN-SUFFIX,ai.google.dev
 DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,notebooklm.google.com
-DOMAIN-SUFFIX,withgoogle.com
 
 # === прочие AI / модели / роутеры ===
 DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,groq.com
-DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,mistral.ai
-DOMAIN-SUFFIX,huggingface.co
-DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,nousresearch.com
 DOMAIN-SUFFIX,minimax.chat
 DOMAIN-SUFFIX,microsoft.ai
-DOMAIN-SUFFIX,docs.z.ai
-DOMAIN-SUFFIX,kimi.ai
-DOMAIN-SUFFIX,kimi.com
-DOMAIN-SUFFIX,moonshot.cn
-DOMAIN-SUFFIX,moonshot.ai
 DOMAIN-SUFFIX,nanobanana.io
 DOMAIN-SUFFIX,kerlig.com
 DOMAIN-SUFFIX,anythingllm.com
@@ -87,23 +76,16 @@ DOMAIN-SUFFIX,context7.com
 # === AI-агенты / IDE ===
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,devin.ai
 DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,visualstudio.com
 DOMAIN-SUFFIX,vsassets.io
 DOMAIN-SUFFIX,electronjs.org
 
 # === Git / DevOps / пакеты ===
-DOMAIN-SUFFIX,github.com
-DOMAIN-SUFFIX,github.io
-DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,gitlab.com
 DOMAIN-SUFFIX,bitbucket.org
-DOMAIN-SUFFIX,docker.com
-DOMAIN-SUFFIX,docker.io
-DOMAIN-SUFFIX,postman.com
-DOMAIN-SUFFIX,semgrep.dev
 DOMAIN-SUFFIX,snyk.io
-DOMAIN-SUFFIX,developer.nvidia.com
 
 # === X / Twitter ===
 DOMAIN-SUFFIX,x.com
@@ -116,11 +98,7 @@ DOMAIN-SUFFIX,pscp.tv
 DOMAIN-SUFFIX,fb.com
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,licdn.com
-DOMAIN-SUFFIX,pinterest.com
-DOMAIN-SUFFIX,pinimg.com
-DOMAIN-SUFFIX,redd.it
 DOMAIN-SUFFIX,themoscowtimes.com
-DOMAIN-SUFFIX,boosty.to
 
 # === мессенджеры / коммуникация ===
 DOMAIN-SUFFIX,usemessages.com
@@ -138,10 +116,6 @@ DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,loom.com
 
 # === Apple ===
-DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,mzstatic.com
-DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,apps.apple.com
 DOMAIN-SUFFIX,apple.map.fastly.net
 # iCloud Drive хранит содержимое файлов в S3 Ireland (eu-irl-0000N.s3.dualstack.eu-west-1...).
 # Напрямую из РФ — троттлинг ~16 КБ: мелочь проходит, файлы висят на 0% (2026-10-19)
@@ -149,23 +123,18 @@ DOMAIN-SUFFIX,eu-west-1.amazonaws.com
 DOMAIN-SUFFIX,icloud-content.com
 
 # === Google (логин, API, статика, реклама) ===
-DOMAIN-SUFFIX,google
-DOMAIN-SUFFIX,google.com
-DOMAIN-SUFFIX,googleapis.com
-DOMAIN-SUFFIX,gstatic.com
-DOMAIN-SUFFIX,recaptcha.net
-DOMAIN-SUFFIX,doubleclick.net
+#DOMAIN-SUFFIX,google
+#DOMAIN-SUFFIX,google.com
+#DOMAIN-SUFFIX,googleapis.com
+#DOMAIN-SUFFIX,gstatic.com
+#DOMAIN-SUFFIX,recaptcha.net
+#DOMAIN-SUFFIX,doubleclick.net
 
 # === таск-трекеры / документы ===
 DOMAIN-SUFFIX,clickup.com
 DOMAIN-SUFFIX,linear.app
-DOMAIN-SUFFIX,smartsheet.com
 DOMAIN-SUFFIX,wrike.com
 DOMAIN-SUFFIX,todoist.net
-DOMAIN-SUFFIX,atlassian.com
-DOMAIN-SUFFIX,atlassian.net
-DOMAIN-SUFFIX,trello.com
-DOMAIN-SUFFIX,figma.com
 DOMAIN-SUFFIX,miro.com
 DOMAIN-SUFFIX,grammarly.com
 DOMAIN-SUFFIX,mindmap.so
@@ -198,7 +167,6 @@ DOMAIN-SUFFIX,waveterm.dev
 DOMAIN-SUFFIX,paperclip.ing
 DOMAIN-SUFFIX,myrsv.live
 DOMAIN-SUFFIX,grizzlysms.com
-DOMAIN-SUFFIX,platipomiru.com
 
 # === аналитика / auth ===
 DOMAIN-SUFFIX,amplitude.com
@@ -217,7 +185,6 @@ DOMAIN-SUFFIX,relevant-digital.com
 DOMAIN-SUFFIX,cloudinary.com
 DOMAIN-SUFFIX,mintcdn.com
 DOMAIN-SUFFIX,statically.io
-DOMAIN-SUFFIX,githack.com
 DOMAIN-SUFFIX,cloudfront.net
 DOMAIN-SUFFIX,fastly.net
 DOMAIN-SUFFIX,fastlylb.net
@@ -234,7 +201,7 @@ DOMAIN-SUFFIX,workers.dev
 DOMAIN-SUFFIX,r2.dev
 DOMAIN-SUFFIX,web.app
 DOMAIN-SUFFIX,firebaseapp.com
-DOMAIN-SUFFIX,cloudflare.com
+#DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,buildwithfern.com
 
 # === документация ===
