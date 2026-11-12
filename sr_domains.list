@@ -54,11 +54,6 @@ DOMAIN-SUFFIX,claudemcpcontent.com
 IP-CIDR,160.79.104.0/21
 IP-CIDR,2607:6bc0::/48
 
-# === Google AI ===
-DOMAIN-SUFFIX,ai.google.dev
-DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,notebooklm.google.com
 
 # === прочие AI / модели / роутеры ===
 DOMAIN-SUFFIX,openrouter.ai
@@ -133,6 +128,10 @@ DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,doubleclick.net
+#DOMAIN-SUFFIX,ai.google.dev
+#DOMAIN-SUFFIX,aistudio.google.com
+#DOMAIN-SUFFIX,gemini.google.com
+#DOMAIN-SUFFIX,notebooklm.google.com
 
 # === таск-трекеры / документы ===
 DOMAIN-SUFFIX,clickup.com
