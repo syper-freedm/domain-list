@@ -128,6 +128,7 @@ DOMAIN-SUFFIX,googletagmanager.com
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,fastly-edge.com
 # DOMAIN-SUFFIX,ai.google.dev
 # DOMAIN-SUFFIX,aistudio.google.com
 # DOMAIN-SUFFIX,gemini.google.com
