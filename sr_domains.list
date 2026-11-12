@@ -129,9 +129,9 @@ DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,withgoogle.com
-DOMAIN,www.googletagmanager.com
-DOMAIN,www.google-analytics.com
-#DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,googletagmanager.com
+DOMAIN-SUFFIX,google-analytics.com
+DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,doubleclick.net
 
 # === таск-трекеры / документы ===
