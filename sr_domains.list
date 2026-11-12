@@ -125,10 +125,14 @@ DOMAIN-SUFFIX,icloud-content.com
 # === Google (логин, API, статика, реклама) ===
 #DOMAIN-SUFFIX,google
 #DOMAIN-SUFFIX,google.com
-#DOMAIN-SUFFIX,googleapis.com
-#DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,googleusercontent.com
+DOMAIN-SUFFIX,withgoogle.com
+DOMAIN,www.googletagmanager.com
+DOMAIN,www.google-analytics.com
 #DOMAIN-SUFFIX,recaptcha.net
-#DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,doubleclick.net
 
 # === таск-трекеры / документы ===
 DOMAIN-SUFFIX,clickup.com
