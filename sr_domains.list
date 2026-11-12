@@ -119,7 +119,7 @@ DOMAIN-SUFFIX,icloud-content.com
 
 # === Google (логин, API, статика, реклама) ===
 DOMAIN-SUFFIX,google
-# DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,googleusercontent.com
