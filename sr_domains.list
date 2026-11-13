@@ -139,6 +139,17 @@ DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,google.ru
 DOMAIN-SUFFIX,withgoogle.com
 DOMAIN-KEYWORD,gemini
+# основная сеть Google (поиск, аккаунты, Gemini, API)
+IP-ASN,15169
+# Google Cloud (облачная инфраструктура, часть сервисов Google)
+IP-ASN,396982
+# YouTube и связанные сервисы Google
+IP-ASN,36040
+# Внутренняя инфраструктурная сеть Google
+# IP-ASN,19527
+
+
+
 
 # === таск-трекеры / документы ===
 DOMAIN-SUFFIX,clickup.com
