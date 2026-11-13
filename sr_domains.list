@@ -6,6 +6,15 @@ DOMAIN-SUFFIX,sypermini.com
 
 # === Copilot / Microsoft ===
 DOMAIN-SUFFIX,copilot.microsoft.com
+# аккаунт, Microsoft 365 и вход: регион сессии
+DOMAIN-SUFFIX,microsoft.com
+DOMAIN-SUFFIX,cloud.microsoft
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,msauth.net
+DOMAIN-SUFFIX,msftauth.net
 
 # === Grok / xAI ===
 DOMAIN-SUFFIX,grok.com
