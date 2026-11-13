@@ -204,6 +204,7 @@ DOMAIN-SUFFIX,clerk.dev
 DOMAIN-SUFFIX,sentry.io
 DOMAIN-SUFFIX,mckinsey.com
 DOMAIN-SUFFIX,fortune.com
+DOMAIN-SUFFIX,addyosmani.com
 
 # === CDN / рекламные пиксели ===
 DOMAIN-SUFFIX,btloader.com
