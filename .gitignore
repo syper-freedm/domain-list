@@ -8,6 +8,7 @@
 !sr_domains.list
 !sr.conf
 !README.md
+!shadowrocket.md
 
 # 3. Сам .gitignore тоже нужен в репозитории
 !.gitignore

@@ -5,7 +5,7 @@
 DOMAIN-SUFFIX,sypermini.com
 
 # === Copilot / Microsoft ===
-DOMAIN-SUFFIX,copilot.microsoft.com
+# copilot.microsoft.com покрыт microsoft.com; ранний PROXY стоит в sr.conf и sr_cor.conf
 # аккаунт, Microsoft 365 и вход: регион сессии
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,cloud.microsoft
@@ -49,8 +49,6 @@ IP-CIDR,8.47.69.0/24
 IP-CIDR,8.6.112.0/24
 # Microsoft Azure (голосовой чат ChatGPT, UDP:3478)
 IP-ASN,8075
-# Alcatel-Lucent / Nokia Networks America (исп. ChatGPT)
-IP-ASN,10455
 
 # === Claude / Anthropic ===
 DOMAIN-SUFFIX,anthropic.com
@@ -109,24 +107,29 @@ DOMAIN-SUFFIX,usemessages.com
 DOMAIN-SUFFIX,slack.com
 
 # === YouTube ===
-DOMAIN-KEYWORD,youtube
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,youtube-nocookie.com
+DOMAIN-SUFFIX,youtubekids.com
+DOMAIN-SUFFIX,withyoutube.com
+DOMAIN-SUFFIX,youtu.be
+DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,ytimg.com
-DOMAIN-SUFFIX,ytimg.l.google.com
-DOMAIN-SUFFIX,yt-video-upload.l.google.com
 
 # === медиа ===
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,loom.com
 
 # === Apple ===
-DOMAIN-SUFFIX,apple.map.fastly.net
 # iCloud Drive хранит содержимое файлов в S3 Ireland (eu-irl-0000N.s3.dualstack.eu-west-1...).
-# Напрямую из РФ — троттлинг ~16 КБ: мелочь проходит, файлы висят на 0% (2026-10-19)
-DOMAIN-SUFFIX,eu-west-1.amazonaws.com
+# Напрямую из РФ — троттлинг ~16 КБ: мелочь проходит, файлы висят на 0% (2026-10-19).
+# Суффикс ограничен S3, чтобы не проксировать весь регион AWS.
+DOMAIN-SUFFIX,s3.eu-west-1.amazonaws.com
+DOMAIN-SUFFIX,s3.dualstack.eu-west-1.amazonaws.com
 DOMAIN-SUFFIX,icloud-content.com
 
 # === Google (логин, API, статика, реклама) ===
+# доменная зона .google
 DOMAIN-SUFFIX,google
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googleapis.com
@@ -139,15 +142,9 @@ DOMAIN-SUFFIX,recaptcha.net
 DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,fastly-edge.com
 DOMAIN-SUFFIX,ai.google.dev
-DOMAIN-SUFFIX,aistudio.google.com
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,notebooklm.google.com
-DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,google.ru
-DOMAIN-SUFFIX,withgoogle.com
-DOMAIN-KEYWORD,gemini
 # основная сеть Google (поиск, аккаунты, Gemini, API)
 IP-ASN,15169
 # Google Cloud (облачная инфраструктура, часть сервисов Google)
@@ -231,7 +228,6 @@ DOMAIN-SUFFIX,workers.dev
 DOMAIN-SUFFIX,r2.dev
 DOMAIN-SUFFIX,web.app
 DOMAIN-SUFFIX,firebaseapp.com
-#DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,buildwithfern.com
 
 # === документация ===
