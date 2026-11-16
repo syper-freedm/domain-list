@@ -9,8 +9,11 @@ DOMAIN-SUFFIX,sypermini.com
 # аккаунт, Microsoft 365 и вход: регион сессии
 DOMAIN-SUFFIX,microsoft.com
 DOMAIN-SUFFIX,cloud.microsoft
+DOMAIN-SUFFIX,static.microsoft
 DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,azurefd.net
+DOMAIN-SUFFIX,azurewebsites.net
 DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,msauth.net
